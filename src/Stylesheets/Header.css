@@ -1,0 +1,21 @@
+.top-header-header-div{
+    background-color: #d6932c;
+    max-height: 40vh;
+    width: auto;
+    display: flex;
+    flex-flow: column;
+    padding: 6.6vh 13vw;
+}
+.top-header-heading{
+    display: flex;
+    /* padding-left: 10px; */
+}
+.top-header-heading{
+    padding: 20px 20px;
+}
+h2{
+    margin: 0;;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}

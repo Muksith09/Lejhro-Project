@@ -1,0 +1,9 @@
+.App {
+  box-sizing: border-box;
+}
+.Container {
+  min-height: 100vh;
+}
+*{
+  text-decoration: none;
+}

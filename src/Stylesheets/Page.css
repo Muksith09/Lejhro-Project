@@ -1,0 +1,88 @@
+.blog-content {
+    width: auto;
+    padding: 6.6vh 13vw ;
+    background-color: #f4f4f4;
+}
+.blog-content-container {
+    padding: 50px;
+    background-color: #fdfdfd;
+    border-radius: 40px;
+}
+.blog-content-container .h4-subheading {
+    padding-top: 20px;
+}
+.blog-content ul {
+    list-style: circle;
+}
+.blog-content li {
+    margin-bottom: 0.25rem;
+} 
+.p-bold {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  /* Mobiles */
+@media only screen and (max-width: 600px) {
+    .blog-content {
+      padding: 3.3vh 6.5vw ;
+    }
+    .blog-content-container {
+      padding: 20px ;
+      border-radius: 20px ;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .blog-content {
+      padding: 3.3vw 6.5vh ;
+    }
+    .blog-content-container {
+      padding: 20px ;
+      border-radius: 20px ;
+    }
+}
+  
+  /* Mobile */
+@media only screen and (min-width: 600px) {
+    .blog-content {
+      padding: 4vh 8vw ;
+    }
+    .blog-content-container {
+      padding: 30px ;
+      border-radius: 20px ;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .blog-content {
+      padding: 4vw 8vh ;
+    }
+    .blog-content-container {
+      padding: 30px ;
+      border-radius: 20px ;
+    }
+}
+
+  /* Desktop */
+@media only screen and (min-width: 950px) {
+    .blog-content {
+      padding: 5.3vh 11.4vw ;
+      width: auto;
+    }
+    .blog-content-container {
+      padding: 40px ;
+      border-radius: 30px ;
+    }
+}  
+
+  /* Desktop */
+@media only screen and (min-width: 1200px) {
+    .blog-content {
+      padding: 6.6vh 13vw ;
+    }
+    .blog-content-container {
+      padding: 50px ;
+      border-radius: 50px ;
+    }
+}
+  

@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 32px;
+}
+.header-links{
+    display: flex;
+    align-items: center;
+    gap: 5.5rem;
+}
+.header-links a{
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+.sidebar-btn{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
