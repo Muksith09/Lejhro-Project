@@ -8,14 +8,11 @@
 }
 .top-header-heading{
     display: flex;
-    /* padding-left: 10px; */
+    /* font-size: xx-large; */
 }
-.top-header-heading{
-    padding: 20px 20px;
-}
-h2{
-    margin: 0;;
+.top-header-heading h2{
+    margin: 0;
     color: white;
-    font-size: 40px;
+    font-size: xx-large;
     font-weight: 500;
 }

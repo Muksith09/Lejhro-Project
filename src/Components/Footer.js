@@ -1,6 +1,6 @@
 import React from "react";
 import '../Stylesheets/Footer.css'
-
+// import { input } from 'mdb-ui-kit';s
 const Footer = ()=> {
   return (
     <div className="footer-main-div" >
@@ -29,7 +29,7 @@ const Footer = ()=> {
             <h3>Connect with us</h3>
             <div className="footer-section-connect">
               <a href='/'>Twitter icon </a>
-              <a href='/'>Facebook icon</a>
+              <a href='/'>facebook icon</a>
               <a href='/'>Linkedin icon</a>
               <a href='/'>Youtube icon</a>
             </div>

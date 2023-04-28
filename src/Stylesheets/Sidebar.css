@@ -6,24 +6,61 @@
 .logo{
     height: 32px;
 }
-.header-links{
-    display: flex;
-    align-items: center;
-    gap: 5.5rem;
+.logo-blue{
+    margin-left: 30px;
 }
-.header-links a{
-    color: white;
-    font-size: large;
-    font-weight: 500;
-}
-.sidebar-btn{
+.toggle-btn{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-color: transparent;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column; 
+    column-gap: 0.1;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
-    border-color: transparent;
+}
+.hamburger{
+    width: 14px;
+    height: 1.6px;
+    background-color: black;
+    position: relative;
+}
+.hamburger::after,
+.hamburger::before{
+    content: '';
+    width: 18px;
+    height: 1.7px;
+    position: absolute;
+    background-color: black;
+    right: 0;
+}
+.hamburger::before{
+    top: -10px;
+}
+.hamburger::after{
+    top: 10px;
 }
 
+.header-2{
+    display: flex;
+    flex-flow: row;
+    gap: 3rem;
+    align-items: center;
+}
+.nav-elements{
+    font-size: larger !important;
+    font-weight: 700 !important;
+}
+.close-btn-element{
+    border-bottom: 2px solid rgba(211, 211, 211, 0.523);    
+}
+
+.a{
+    color: white;
+    font-size: large;
+}
+.a:hover{
+    color: black;
+}
